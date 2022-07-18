@@ -1,0 +1,368 @@
+body{
+    margin: 0 auto;
+    background-color: #FAFAFA;
+    display: flex;
+}
+
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 54px;
+    width: 100vw;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    margin: 0 auto;
+    z-index: 1;
+}
+header ion-icon{
+    height: 22px;
+    width: 22px;
+}
+.traco{
+    position: relative;
+    background-color: #DBDBDB;
+    width: 1px;
+    height: 22px;
+    left: 10px;
+}
+header img{
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 40px;
+}
+
+header input{
+    border: none;
+    background-color: #FAFAFA;
+    border-radius: 3px;
+    padding: 3% 10%;
+    text-align: center;
+    font-size: 12px;
+    height: 28px;
+    width: 215px;
+    border: 1px solid #DBDBDB;
+}
+.nome-instagram{
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    margin-top: 10px;
+    margin-right: 230px;
+}
+section{
+    margin-left: 240px;
+    display: flex;
+}
+.conteiner-story{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    height: 118px;
+    width: 614px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;
+    margin-top: 88px;
+    overflow-x: scroll;
+    overflow: hidden; 
+}
+.seta{
+    position: absolute;
+    margin-top: 0px;
+    z-index: 1;
+    margin-left: 570px;
+}
+.story{
+    position: relative;
+    height: 85px;
+    width: 66px;  
+    margin-left: 0px;
+}
+.borda-story {
+    position: absolute;
+}
+.foto-story {
+    position: absolute;
+    height: 56px;
+    width: 56px;
+    margin-left: 5px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.nome-story{ 
+    font-weight: 400;
+    margin-top: 70px;
+    text-align: center;
+    padding: 3% 10%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 66px;
+    height: 19px;
+    font-size: 12px;
+}
+aside{
+    position: fixed;
+    /* background-color: #139EF2; */
+    width: 293px;
+    height: 500px;
+    background-color: #FAFAFA;
+    margin-top: -100px;
+    margin-left: 900px;
+}
+.sugestao p{
+    font-size: 12px;
+    color: #8E8E8E;
+    font-weight: 500, medium;
+}
+.sugestao{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.sugestao h2{
+    font-size: 12px
+}
+.post{
+    height: 749px;
+    width: 614px;
+    margin-top: 24px ;
+    margin-bottom: 60px;
+    background-color: #FFFFFF;
+    border: 1px solid #DBDBDB;;
+}
+.post img{
+    height: 612px;
+    width: 612px;
+}
+.video-screen{
+    width: 512px;
+}
+button{
+    font-size: 20px;
+}
+.perfil{
+    margin-top: 0px;
+    height: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.perfil img{
+    height: 32px;
+    width: 32px;
+    margin-top: 5px;
+    border-radius: 50%;
+}
+.perfil h1{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+.perfil ion-icon{
+    margin-right: 20px;
+}
+.localizacao{
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #8E8E8E;
+}
+.perfil-detalhes{
+    display: flex;
+    align-items: center;
+    margin-left: 17px;
+}
+.perfil-detalhes div{
+    width: 200px;
+}
+.interacao-post{
+    height: 76px;
+    width: 614px;
+}
+.interagir{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0px;
+    height: 35px;
+    border: 17px solid #FFFFFF ;
+}
+.reacao{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+.interacoes-post ion-icon{
+    height: 22px;
+    width: 22px;
+}
+.curtidas{
+    display: flex;
+    margin-left: 17px;    
+    
+}
+.curtidas img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.curtidas p{
+    font-size: 14px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+.perfil-usuario{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+}
+.perfil-usuario img{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+}
+.nome-usuario{
+    margin-bottom:20px;
+    height: 34px;
+    width: 222px;
+}
+.nome-usuario h1{
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.nome-usuario p{
+    font-size: 14px;
+    margin-top: 0px;
+    color: #8E8E8E;
+}
+.sugestao-perfil{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 50px;
+}
+.sugestao-perfil img{
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    margin-top: 12px;
+}
+.sugestao-perfil h2{
+    color: #139EF2;
+    font-size: 12px;
+}
+.sugestao-paginas{
+    margin-left: 10px;
+    margin-top: 12px;
+    height: 60px;
+
+}
+.sugestao-paginas h1{
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+}
+.sugestao-paginas p{
+    font-size: 12px;
+    color: #8E8E8E;
+    margin-top: 0px;
+}
+.informacoes{
+    display: flex;
+    align-items:center ;
+}
+.informacoes p{
+    font-size: 11px;
+    color: #C7C7C7;
+}
+.copyright{
+    font-size: 11px;
+    color: #C7C7C7;
+}
+.paginas-nome-foto{
+    display: flex;
+}
+@media (max-width: 935px){
+    aside{
+        display: none;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    section{
+        margin-left: 0px;
+    }
+    .nome-instagram{
+        margin-left: 50px;
+    }
+    main{
+        margin-right: 50px;
+    }
+    @media (max-width: 614px){
+        .traco{
+            display: none;
+        }
+        header input{
+            display: none;
+        }
+        header{
+            display: flex;
+            justify-content: none;
+        }
+        aside{
+            display: none;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        section{
+            margin-left: 0px;
+            width: 100%;
+        }
+        .nome-instagram{
+            margin-left: 20px;
+            
+        }
+        body{
+            overflow: hidden;
+            overflow: scroll;
+        }
+        .conteiner-story{
+            overflow-x: hidden;
+            overflow: scroll;
+        }
+        .nome-instagram{
+            display: flex;
+            justify-content: center;
+        }
+        .nome-instagram img{
+            margin-left: 210px;
+            margin-right: 220px ;
+        }
+       
+        main{
+            margin-left: 10px;
+        }
+
+      
+    }
+    
+}
